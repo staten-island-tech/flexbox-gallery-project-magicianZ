@@ -19,6 +19,10 @@
     width: 350px;
     height: 500px;
     perspective: 800px;
+    float: left;
+    
+   
+    
   }
   
   .container:hover > .card {
@@ -27,11 +31,15 @@
   }
   
   .card {
-    height: 100%;
-    width: 100%;
+    float: left;
+    height: 400px;
+    width: 400px;
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
+   
+    
+    
   }
   
   .front,.back{
@@ -45,7 +53,8 @@
   }
   
   .front {
-    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2015%2F03%2F10%2F17%2F23%2Fyoutube-667451_1280.png&tbnid=SD7-6vyOeygwcM&vet=12ahUKEwjHjob3s7eBAxUTDFkFHZQyBS4QMygBegQIARBs..i&imgrefurl=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Furl%2F&docid=OVVUTETZ1D78_M&w=1280&h=640&q=url%20image&client=safari&ved=2ahUKEwjHjob3s7eBAxUTDFkFHZQyBS4QMygBegQIARBs);
+    background-image: url(fracture.webp);
+    background-repeat: no-repeat;
   }
   
   .back {
