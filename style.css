@@ -1,5 +1,5 @@
 * {
-    font-size: 10px;
+    font-size: 12px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@
     box-shadow: 500 500 2px 1px red;
     border: 2px solid black;
     width: 22vw;
-    margin: 2.5rem;
+    margin: 3rem;
     height: 300px;
     background-color: rgba(72,96,101,2);
     display: flex;
@@ -58,3 +58,19 @@ h2,h3{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.zoom {
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
