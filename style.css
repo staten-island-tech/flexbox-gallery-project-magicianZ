@@ -15,7 +15,7 @@
 .card{
     box-shadow: 500 500 2px 1px red;
     border: 2px solid black;
-    width: 22vw;
+    width: 20%;
     margin: 3rem;
     height: 300px;
     background-color: rgba(72,96,101,2);
@@ -40,7 +40,7 @@
     margin: 1rem auto;
     display: flex;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 90vw;
     
    
    
@@ -56,6 +56,7 @@ img{
 h2,h3{
     text-shadow: 2px 2px 5px pink;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .zoom {
